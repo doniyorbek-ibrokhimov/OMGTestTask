@@ -1,10 +1,3 @@
-//
-//  OMGTestTaskApp.swift
-//  OMGTestTask
-//
-//  Created by Doniyorbek Ibrokhimov on 05/03/24.
-//
-
 import SwiftUI
 
 @main

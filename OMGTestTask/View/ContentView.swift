@@ -12,6 +12,9 @@ internal struct ContentView: View {
             }
         }
         .environmentObject(self.viewModel)
+        .onDisappear {
+            self.viewModel.stopTimer()
+        }
     }
     
     private var horizontalItemViews: some View {
